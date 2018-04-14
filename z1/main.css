@@ -1,0 +1,33 @@
+* {
+  font-family: 'Lato', sans-serif;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  line-height: 1.6;
+  text-align: center;
+}
+
+p {
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  position: fixed;
+  background-color: cornsilk;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
