@@ -31,3 +31,13 @@ p {
 .navbar li {
   display: inline-block;
 }
+
+.p-left {
+  width: 70%;
+  display: inline-block;
+}
+
+.img-right {
+  float: right;
+  width: 30%;
+}
