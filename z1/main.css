@@ -47,6 +47,12 @@ p {
   display: inline-block;
 }
 
+.p-right {
+  width: 70%;
+  display: inline-block;
+  float: right;
+}
+
 .img-right {
   float: right;
   width: 30%;
@@ -58,4 +64,10 @@ p {
 
 section {
   clear: both;
+  min-height: 450px;
+}
+
+.img-sticky {
+  position: sticky;
+  top: 1rem;
 }
