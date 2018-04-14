@@ -71,3 +71,17 @@ section {
   position: sticky;
   top: 1rem;
 }
+
+.navbar li:first-child {
+  background-color: pink;
+}
+
+.navbar li:not(:first-child) * {
+  color: yellow;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 300%;
+  line-height: 1;
+}
