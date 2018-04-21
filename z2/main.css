@@ -1,0 +1,27 @@
+* {
+  font-family: 'Lato', sans-serif;
+  color: #222;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.box--1 {
+  background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+
+.box--2 {
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+}
+
+.box span {
+  color: #f2f2f2;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
