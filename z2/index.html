@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="utf-8">
-        <title>Alice's Adventures in Wonderland</title>
-        <link href="https://fonts.googleapis.com/css?family=Lato|Lora" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-      <nav class="navbar">
-        <ul>
-          <li><a href="#">Down the Rabbit-Hole</a></li>
-          <li><a href="#">The Pool of Tears</a></li>
-          <li><a href="#">A Caucus-Race and a Long Tale</a></li>
-          <li><a href="#">More</a></li>
-        </ul>
-      </nav>
-      <main>
-        <div class="box box--1">
-          <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde recusandae dolores quasi accusamus temporibus impedit dolore illum rem. Vitae tempora nesciunt pariatur eum eligendi inventore sit exercitationem expedita distinctio reiciendis.</span>
-        </div>
-        <div class="box box--2">
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci impedit asperiores sit obcaecati aut! Officiis quo expedita aliquam at corrupti aliquid accusantium? Dolorum culpa incidunt nam sit? Blanditiis, alias ut?</span>
-        </div>
-      </main>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Alice's Adventures in Wonderland</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Down the Rabbit-Hole</a></li>
+        <li><a href="#">The Pool of Tears</a></li>
+        <li><a href="#">A Caucus-Race and a Long Tale</a></li>
+        <li><a href="#">More</a></li>
+    </ul>
+</nav>
+<main>
+    <div class="box box--1">
+        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde recusandae dolores quasi accusamus temporibus impedit dolore illum rem. Vitae tempora nesciunt pariatur eum eligendi inventore sit exercitationem expedita distinctio reiciendis.</span>
+    </div>
+    <div class="box box--2">
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci impedit asperiores sit obcaecati aut! Officiis quo expedita aliquam at corrupti aliquid accusantium? Dolorum culpa incidunt nam sit? Blanditiis, alias ut?</span>
+    </div>
+</main>
+<section>
+    <form action="http://infoshare.com/form.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" pattern="[A-Za-z]{3,20}" title="3-20">
+        <label for="e-mail">E-mail</label>
+        <input required="required" type="email" id="e-mail">
+        <label for="experience-1">Rate your experience</label>
+        <input type="range" id="experience-1" min="1" max="5">
+
+        <label for="ex-1">😭</label>
+        <input id="ex-1" type="radio" name="group-1">
+        <label for="ex-2">😶</label>
+        <input id="ex-2" type="radio" name="group-1">
+        <label for="ex-3">😀</label>
+        <input id="ex-3" type="radio" name="group-1">
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send">
+    </form>
+</section>
+</body>
 </html>
