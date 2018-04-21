@@ -96,8 +96,11 @@ flex-direction: row;
   width: 200px;
   flex-wrap: wrap;
   justify-content: center;
-
   align-items: center;
-
-
+}
+.item.item--3 {
+  order: -1;
+}
+.item.item--4 {
+  order: 1;
 }
